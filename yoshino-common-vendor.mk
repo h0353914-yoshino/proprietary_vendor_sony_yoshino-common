@@ -346,7 +346,6 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libqcci_legacy \
     libqdi \
-    libqdp \
     libqmi \
     libqmi_cci \
     libqmi_client_helper \
