@@ -826,7 +826,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     QtiTelephonyService \
     dpmserviceapp \
-    ims \
     qcrilmsgtunnel \
     com.qti.dpmframework \
     dpmapi \
