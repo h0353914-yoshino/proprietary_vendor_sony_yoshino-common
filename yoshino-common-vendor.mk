@@ -208,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino-common/proprietary/vendor/etc/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \
     vendor/sony/yoshino-common/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/sony/yoshino-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/sony/yoshino-common/proprietary/vendor/etc/public.libraries-sony.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries-sony.txt \
     vendor/sony/yoshino-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/sony/yoshino-common/proprietary/vendor/etc/qns.fstab:$(TARGET_COPY_OUT_VENDOR)/etc/qns.fstab \
     vendor/sony/yoshino-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
