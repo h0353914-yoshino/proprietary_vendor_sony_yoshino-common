@@ -17643,6 +17643,20 @@ install_symlink {
 }
 
 install_symlink {
+    name: "vendor_etc_customization_modem_reset_modemst1",
+    soc_specific: true,
+    installed_location: "etc/customization/modem/reset_modemst1",
+    symlink_target: "/vendor/etc/customization/modem/amss_fs_empty.mbn",
+}
+
+install_symlink {
+    name: "vendor_etc_customization_modem_reset_modemst2",
+    soc_specific: true,
+    installed_location: "etc/customization/modem/reset_modemst2",
+    symlink_target: "/vendor/etc/customization/modem/amss_fs_empty.mbn",
+}
+
+install_symlink {
     name: "vendor_lib_libEGL_adreno_so",
     soc_specific: true,
     installed_location: "lib/libEGL_adreno.so",
