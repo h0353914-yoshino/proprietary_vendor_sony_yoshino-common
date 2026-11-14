@@ -687,9 +687,7 @@ PRODUCT_PACKAGES += \
     libsdm-color \
     libsdm-diag \
     libsdm-disp-vndapis \
-    libsdmcore \
     libsdmextension \
-    libsdmutils \
     libsdsprpc \
     libsecureui \
     libsecureui_svcsock \
