@@ -314,23 +314,23 @@ PRODUCT_PACKAGES += \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
-    libQTapGLES \
     libq3dtools_adreno \
     libq3dtools_esx \
+    vulkan.adreno \
     libC2D2 \
     libCB \
     libOpenCL \
     libQSEEComAPI \
-    libRSDriver_adreno \
+    libVkLayer_q3dtools \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libbccQTI \
     libc2d30_bltlib \
     libdevice_security_vendor \
     libdiag \
     libdsutils \
     libfastcvopt \
+    libgpudataproducer \
     libgsl \
     libhdcprx_module \
     libhdcptx_module \
@@ -357,7 +357,7 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libqsocket \
     librs_adreno \
-    librs_adreno_sha1 \
+    libsdm-disp-vndapis \
     libsensor1 \
     libstagefright_hdcp \
     libsuntory \
@@ -603,7 +603,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
-    vulkan.msm8998 \
     lib-imsSDP \
     lib-imscmservice \
     lib-imsdpl \
@@ -684,7 +683,6 @@ PRODUCT_PACKAGES += \
     librpmb \
     libsdm-color \
     libsdm-diag \
-    libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
     libsecureui \
@@ -711,6 +709,8 @@ PRODUCT_PACKAGES += \
     sensors.finger-pickup \
     sensors.ssc \
     vendor.display.color@1.0 \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
     vendor.display.postproc@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
@@ -897,4 +897,5 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so \
-    vendor_lib64_android_hardware_keymaster@3_0-impl-qti_so
+    vendor_lib64_android_hardware_keymaster@3_0-impl-qti_so \
+    vendor_lib64_hw_vulkan_msm8998_so
