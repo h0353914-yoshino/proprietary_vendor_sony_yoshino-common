@@ -16093,46 +16093,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vendor.semc.hardware.secd@1.0-service",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.semc.hardware.secd@1.0-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libhidlbase",
-                "libhidltransport",
-                "libmiscta",
-                "vendor.somc.hardware.security.secd@1.0",
-                "libcrypto",
-                "libsqlite",
-                "libtpm",
-                "libidd",
-                "libprotobuf-c-idd",
-                "libkeymasterutils",
-                "libkeymasterprovision",
-                "libkeymasterdeviceutils",
-                "android.hardware.keymaster@3.0-impl-qti",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "vendor.semc.system.idd@1.0-service",
     owner: "sony",
     target: {

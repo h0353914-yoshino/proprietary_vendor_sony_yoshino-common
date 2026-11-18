@@ -842,7 +842,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor.semc.hardware.secd@1.0-service \
     vendor.semc.system.idd@1.0-service \
     vendor.somc.hardware.camera.provider@1.0-service \
     vendor.somc.hardware.miscta@1.0-service \
