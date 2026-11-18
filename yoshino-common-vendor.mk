@@ -365,7 +365,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libwvhidl \
     libwvtee \
-    vendor.semc.hardware.light@1.0 \
     vendor.semc.system.idd@1.0 \
     vendor.somc.hardware.security.secd@1.0 \
     libexcal_ckb_service_plugin \

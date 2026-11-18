@@ -2379,57 +2379,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.semc.hardware.light@1.0",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.semc.hardware.light@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase_shim",
-                "android.hardware.light@2.0",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.semc.hardware.light@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase_shim",
-                "android.hardware.light@2.0",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.semc.system.idd@1.0",
     owner: "sony",
     strip: {
@@ -3824,7 +3773,6 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidltransport",
                 "libhwbinder",
-                "vendor.semc.hardware.light@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -3833,6 +3781,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
