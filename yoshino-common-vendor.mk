@@ -395,7 +395,6 @@ PRODUCT_PACKAGES += \
     libexcal_snapshot_ctrl_plugin \
     libexcal_splitter_plugin \
     libexcal_stream_ctrl_plugin \
-    camera.msm8998 \
     camera.qcom \
     sound_trigger.primary.msm8998 \
     libOmxVideoDSMode \

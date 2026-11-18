@@ -3276,48 +3276,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "camera.msm8998",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/camera.msm8998.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhardware",
-                "libutils",
-                "libcutils",
-                "libsync",
-                "libmmcamera_interface",
-                "libmmjpeg_interface",
-                "libui",
-                "libcamera_metadata",
-                "libqdMetaData",
-                "libqservice",
-                "libbinder",
-                "libhal_dbg",
-                "android.frameworks.displayservice@1.0",
-                "android.hidl.base@1.0",
-                "libhidlbase",
-                "libhidltransport",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "camera.qcom",
     owner: "sony",
     strip: {
